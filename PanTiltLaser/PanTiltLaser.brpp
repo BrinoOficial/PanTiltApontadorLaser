@@ -1,0 +1,44 @@
+usar Servo
+
+Servo base;
+Servo braco;
+
+Constante Numero pot1 = A0;
+Constante Numero pot2 = A1;
+Constante Numero laser = 3;
+Constante Numero botao =2;
+
+Numero pos1 = 0;
+Numero pos2 = 0;
+Numero angulo1 = 0;
+Numero angulo2 = 0;
+Numero estadoBotao = 1;
+Numero leituraBotao = 0;
+
+Configuracao(){
+    braco.conectarServo(6);
+    base.conectarServo(5);
+    definirModo(laser, SAIDA);
+    definirModo(botao, ENTRADA_PULLUP);
+	
+}
+
+Principal(){
+    pos1 = lerAnalogico(pot1);
+    pos2 = lerAnalogico(pot2);
+    angulo1 = proporcionar(pos1,0,1023,0,180);
+    angulo2 = proporcionar(pos2,0,1023,0,180);
+    base.escreverAngulo(angulo1);
+    braco.escreverAngulo(angulo2);
+    leituraBotao =  lerDigital(botao);
+    se(leituraBotao == DESLIGADO){
+	estadoBotao = !(estadoBotao);
+	delay(300);
+    }
+   se(estadoBotao == DESLIGADO){
+	ligar(laser);
+    }senao{
+     	desligar(laser);
+   }
+   delay(150);
+}
