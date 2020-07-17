@@ -22,6 +22,10 @@ O código está disponível na linguagem Br.ino e na Arduino dentro da pasta "Pa
 
 # Projeto finalizado
 Seguem algumas imagem do resultado do projeto:
+![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5300.jpg)
+![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5301.jpg)
+![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5302.jpg)
+![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5303.jpg)
 
 # Mais projetos
 Mais projetos como esse podem ser encontrados no nosso site: https://brino.cc
