@@ -21,7 +21,8 @@ A montagem do circuito pode ser visto na imagam abaixo:
 O código está disponível na linguagem Br.ino e na Arduino dentro da pasta "PanTiltLaser"
 
 # Projeto finalizado
-Seguem algumas imagem do resultado do projeto:
+Seguem algumas imagem do resultado do projeto e um breve vídeo de seu funcionamento:
+![Vídeo do circuito funcionando](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/ProjetoFuncionando.mp4)
 ![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5300.jpg)
 ![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5301.jpg)
 ![Imagem do circuito](https://github.com/BrinoOficial/PanTiltApontadorLaser/blob/master/Fotos/IMG_5302.jpg)
