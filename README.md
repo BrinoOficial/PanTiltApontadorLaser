@@ -1,5 +1,6 @@
 # PanTiltApontadorLaser
 Neste projeto utilizamos um Arduíno para controlar um PanTilt de 2 eixos com um joystick.
+Existe um tutorial disponível para o projeto em: https://youtu.be/OLy7uLKFPCQ
 
 # Materiais
 Para montar esse projeto foram usados os seguintes materiais:
